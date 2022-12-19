@@ -1,0 +1,20 @@
+stations :
+	id station
+	nom de la station
+	entrée annuelle de la station pour 0 à 303; entrée journalière estimee de la station pour 304 à 
+	type de la station
+	
+rames :
+	aire moyenne d'un quai pour chaque ligne
+	capacité d'une rame
+
+repartition horaire :
+	pourcentage de personne entrant chaque heure dans une journée
+
+événement : 
+	station la plus proche, heure de début, nombre de personnes attendus
+
+lignes :
+	arcs pour chaque ligne ( 10 et 7bis : unidirectionnelle ; autres : bidirectionnelle )
+correspondances :
+	ligne(s) passant par chaque station
